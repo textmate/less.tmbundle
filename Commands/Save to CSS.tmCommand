@@ -6,8 +6,11 @@
 	<string>saveActiveFile</string>
 	<key>command</key>
 	<string>#!/usr/bin/env ruby
-file = STDIN.read[/lessc: ([^*])+\.less/, 1] || ENV["TM_FILEPATH"].chomp(File.extname(ENV["TM_FILEPATH"]))
-system("lessc \"#{file}.less\" &gt; \"#{file}.css\"")</string>
+
+file = ENV["TM_FILEPATH"]
+target = file.sub(/\.less$/, ".css")
+system("lessc \"#{file}\" \"#{target}\"")
+puts "Compiled CSS to '#{target}'"</string>
 	<key>input</key>
 	<string>document</string>
 	<key>inputFormat</key>
