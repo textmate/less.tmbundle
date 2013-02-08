@@ -217,7 +217,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(-(?:webkit|moz|khtml|o|icab)-(?:background-size|border-radius|box-shadow|opacity|border-image))\s*:</string>
+			<string>(-(?:webkit|moz|khtml|o|icab|ms)-(?:background-size|border-radius|box-shadow|opacity|border-image))\s*:</string>
 		</dict>
 		<dict>
 			<key>captures</key>
