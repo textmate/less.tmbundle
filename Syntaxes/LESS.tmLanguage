@@ -387,6 +387,27 @@
 			<string>keyword.operator.less</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.property-list.begin.css</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.property-list.end.css</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Match empty braces to give proper ↩ action</string>
+			<key>match</key>
+			<string>(\{)(\})</string>
+			<key>name</key>
+			<string>meta.brace.curly.less</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>\{|\}</string>
 			<key>name</key>
