@@ -27,8 +27,24 @@
 		<dict>
 			<key>begin</key>
 			<string>"</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.css</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>"</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.css</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>string.quoted.double.css</string>
 			<key>patterns</key>
@@ -44,8 +60,24 @@
 		<dict>
 			<key>begin</key>
 			<string>'</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.css</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>'</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.css</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>string.quoted.single.css</string>
 			<key>patterns</key>
@@ -103,8 +135,24 @@
 		<dict>
 			<key>begin</key>
 			<string>/\*</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.begin.css</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>\*/</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.end.css</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>comment.block.css</string>
 		</dict>
@@ -342,19 +390,19 @@
 			<key>match</key>
 			<string>\{|\}</string>
 			<key>name</key>
-			<string>meta.brace.curly.js</string>
+			<string>meta.brace.curly.less</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\(|\)</string>
 			<key>name</key>
-			<string>meta.brace.round.js</string>
+			<string>meta.brace.round.less</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\[|\]</string>
 			<key>name</key>
-			<string>meta.brace.square.js</string>
+			<string>meta.brace.square.less</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
