@@ -16,7 +16,7 @@ puts "Compiled CSS to '#{target}'"</string>
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>keyEquivalent</key>
-	<string>@s</string>
+	<string>@b</string>
 	<key>name</key>
 	<string>Save to CSS</string>
 	<key>outputCaret</key>
