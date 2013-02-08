@@ -25,6 +25,18 @@ puts "Compiled CSS to '#{target}'"</string>
 	<string>text</string>
 	<key>outputLocation</key>
 	<string>toolTip</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>lessc</string>
+			<key>locations</key>
+			<array>
+				<string>/opt/local/bin/lessc</string>
+				<string>/usr/local/bin/lessc</string>
+			</array>
+		</dict>
+	</array>
 	<key>scope</key>
 	<string>source.css.less</string>
 	<key>uuid</key>
