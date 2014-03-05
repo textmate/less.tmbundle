@@ -2,6 +2,23 @@
 
 You can install this bundle in TextMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
 
+# Image Drop Action
+Dragging an image into a LESS file will result in base64 data getting inserted into variables. The original idea was inspired by [this article about "Including Data URI Base64 encoded images easily (in LESS)"](https://github.com/cloudhead/less.js/wiki/Include-Data-URI-Base64-encoded-images-easily)
+
+For example;
+
+  Dragging and dropping "hamburger.png" onto a LESS file produces:
+  
+    @gfx-hamburger: "data:image/png;base64,[data]=";
+    @gfx-hamburger-width: 79px;
+    @gfx-hamburger-height: 90px;
+    
+  Which can be used thusly:
+  
+    background-image:url(@gfx-hamburger);
+    background-size:@gfx-hamburger-width @gfx-hamburger-height;
+    
+
 # License (MIT)
 
 Copyright (c) 2010 Scott Kyle and Rasmus Andersson
