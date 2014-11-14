@@ -35,7 +35,7 @@
 					<string>punctuation.definition.string.begin.css</string>
 				</dict>
 			</dict>
-			<key>end</key>https://github.com/textmate/less.tmbundle
+			<key>end</key>
 			<string>"</string>
 			<key>endCaptures</key>
 			<dict>
